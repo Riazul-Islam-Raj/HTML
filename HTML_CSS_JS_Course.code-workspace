@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "HTML_CSS_JS_Course",
+			"path": "../HTML_CSS_JS_Course"
+		},
+		{
+			"name": "HTML",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}

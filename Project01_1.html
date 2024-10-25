@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project 01_1</title>
+  <style>
+    body {
+      font-family: arial; 
+      color: white; 
+      margin: 0;
+      text-align: center;
+    }
+    .table-1 {
+      background-image: url('/Pic/slider_01.webp'); 
+      background-size: cover; 
+      width: 100%;
+      height: 680px;
+    }
+    .table-2 {
+      width: 100%;
+
+    }
+    .text-1 {
+      font-size: 18px; 
+      font-weight: 700;
+      padding: 10px;
+    }
+    .text-2 {
+      font-size: 60px; 
+      font-weight: 700;
+      padding: 20px 0 35px;
+    }
+    .header {
+      padding: 10px;
+    }
+    a {
+      text-decoration: none; 
+      color:white;
+      font-size: 14px;
+    }
+    .appointment {
+      text-decoration: none; 
+      color:white; 
+      font-size: 14px; 
+      padding: 10px 25px; 
+      border: 2px solid white; 
+      border-radius: 25px;
+      transition: 0.15s;
+    }
+    .appointment:hover {
+      background-color: rgb(25, 156, 219);
+      border-color: rgb(25, 156, 219);
+    }
+    .book-button {
+      background-color: white; 
+      color:rgb(95, 161, 226); 
+      font-size: 14px; 
+      cursor: pointer; 
+      padding: 10px 25px; 
+      border: 2px solid rgb(25, 156, 219); 
+      border-radius: 25px; 
+      margin: 0 0 0 20px;
+    }
+    .book-button:hover {
+      background-color: rgb(25, 156, 219);
+      color: white;
+    }
+    .table-3 {
+      background-image: url('/Pic/5-1.webp'); 
+      background-attachment: fixed; 
+      width: 100%;
+    }
+    .progress {
+      width: 13%;
+      text-align: center; 
+      cursor:pointer; 
+      font-size: 20px; 
+      font-weight: 700;
+    }
+    .car-type { 
+      width: 2%;
+    }
+    .car-box {
+      box-shadow: 0 0 2px rgba(0,0,0,0.5); 
+      height: 80px;
+      width: 160px;
+      color: grey; 
+      margin: 1px;
+      padding-top: 50px;;
+    }
+    .car-box:hover {
+      background-color: rgb(25, 156, 219);
+      color: white;
+    }
+    .table-4 {
+      color: black;
+      width: 100%;
+      border-spacing: 30px 70px;
+    }
+    .offer {
+      width: 15%;
+      padding: 20px;
+      vertical-align: top;
+      border: 1px solid gray;
+      border-radius: 5px;
+    }
+    #offer-name {
+      font-weight: 700;
+      font-size: 18px;
+    }
+    #price-1,
+    #price-2 {
+      color:rgb(25, 156, 219);
+    }
+    #price-1 {
+      font-size: 20px;
+      vertical-align: 35px;
+    }
+    #price-2 {
+      font-size: 70px;
+    }
+    .table-4 hr {
+      border: .5px solid rgba(128, 128, 128, 0.51);
+    }
+    #getting {
+      color: gray;
+      font-size: 14px;
+      line-height: 25px;
+    }
+    #book {
+      padding: 10px 25px;
+      border: 2px solid rgb(25, 156, 219);
+      background-color: white;
+      color: rgb(25, 156, 219);
+      border-radius: 25px;
+      margin: 5px;
+    }
+    #book:hover {
+      background-color: rgb(25, 156, 219);
+      color: white;
+    }
+    .table-5 {
+      width: 100%;
+      border-collapse: collapse;
+      color: black;
+      text-align: left;
+    }
+    .left-pic-box {
+      background-image: url('/Pic/1-1.webp');
+      background-size: cover;
+      height: 700px;
+      width: 48.5%;
+    }
+    .right {
+      padding-left: 110px;
+      background-color: rgba(224, 224, 224, 0.363);
+    }
+    .right-h3 {
+      margin-bottom: 40px;
+    }
+    .right-p {
+      font-size: 15px;
+      color: rgb(92, 82, 82);
+      line-height: 24px;
+    }
+    .table-6 {
+      color: black;
+      text-align: left;
+      width: 100%;
+      margin-top: 100px;
+      word-spacing: 3px;
+      letter-spacing: 1px;
+    }
+    .table-7 {
+      background-color: #343434;
+      width: 100%;
+      text-align: left;
+      padding: 60px 0;
+      margin-top: 110px;
+    }
+    .footer-li {
+      list-style: none;
+      font-size: 14px;
+    }
+    .footer {
+      width: 23%;
+      line-height: 25px;
+      color: gray;
+      vertical-align: top;
+    }
+    .th1 {
+      padding-left: 40px;
+    }
+    .a-ft {
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <table class="table-1">
+    <tr>
+      <td style="width: 600px; text-align: left;"><a href="#"><img src="/Pic/Logo-main.webp" style="width: 160px; margin-left: 20px;;"></a></td>
+      <td class="header"><a href="#">HOME</a></td>
+      <td class="header"><a href="#">MAKE AN APPOINTMENT</a></td>
+      <td class="header"><a href="#">CONTACT</a></td>
+      <td style="width: 600px; text-align: right; font-size: 20px;"><a href="#" style=" padding: 10px; border: 2px solid white; border-radius: 25px;">Search</a></td>
+    </tr>
+      <tr>
+        <td colspan="5" style="width: 100%;">
+          <table class="table-2">
+            <tr>
+              <td style=" height: 100px;"></td>
+            </tr>
+            <tr>
+              <td class="text-1">WELCOME TO LUXEGLOW CAR CARE</td>
+            </tr>
+            <tr>
+              <td class="text-2">YOUR CAR IS ALWAYS <br>IN GREAT HANDS WITH US</td>
+            </tr>
+            <tr>
+              <td><a href="#" class="appointment">MAKE AND APPOINTMENT</a></td>
+            </tr>
+            <tr>
+              <td style="height: 150px;"></td>
+            </tr>
+          </td>
+        </tr>
+      </table>
+  </table>
+    <p style="color:black; padding: 30px; font-size: 18px; font-weight: 700; word-spacing: 3px; letter-spacing: 1px;">
+        NO 1. CAR WASH BOOKING SYSTEM 
+        <button class="book-button">Book Appointment</button>
+    </p>
+  <table class="table-3">
+    <tr>
+      <td><h1 style="margin-top: 100px">
+        OUR PROCESS
+    </h1></td>
+    <tr>
+      <td><hr style="width: 100px; border: 1px solid white;"></td>
+      <tr>
+        <td><p style="font-size: 14px; font-style: italic;">
+      We know your time is valuable
+    </p></td>
+    <tr>
+      <td><table style="margin: 0 0 100px; width: 100%; line-height: 50px;">
+        <tr>
+          <td style="width: 16%; height: 500px;"></td>
+          <td class="progress">1. BOOKING <br>></td>
+          <td class="progress">2. ARRIVAL <br>></td>
+          <td class="progress">3. INSPECTION <br>></td>
+          <td class="progress">4. VALUATION <br>></td>
+          <td class="progress">5. COMPLETION <br>></td>
+          <td style="width: 20%; height: 500px;"></td>
+        </tr>
+       </table>
+      </td>
+      </tr>    
+  </table>
+    <table style="width: 100%; margin: 0; color: black;">
+      <tr>
+        <td colspan="8"><h2>WASH PACKAGES</h2></td>
+      </tr>
+      <tr>
+      <td colspan="8"><hr style="border: 1px solid rgba(0,0,0,0.5); width: 60px; margin-bottom: 30px;"></td>
+      </tr>
+      <tr>
+        <td colspan="8" style="font-size: 14px; font-style: italic; color: rgb(80, 185, 255); padding-bottom: 20px;">Which wash is the best for your vehicle?</td>
+      </tr>
+      <tr>
+        <td style="height: 200px; width: 15%;"></td>
+        <td class="car-type"><p class="car-box">Regular Size Car</p></td>
+        <td class="car-type"><p class="car-box">Medium Size Car</p></td>
+        <td class="car-type"><p class="car-box">Compact SUV</p></td>
+        <td class="car-type"><p class="car-box">Minivan</p></td>
+        <td class="car-type"><p class="car-box">Pickup Truck</p></td>
+        <td class="car-type"><p class="car-box">Cargo truck</p></td>
+        <td style="height: 200px; width: 15%;"></td>
+      </tr>
+    </table>
+    <table class="table-4">
+      <tr>
+        <td style="width: 18%;"></td>
+        <td class="offer">
+          <p id="offer-name">BASIC HAND WASH</p>
+          <p><span id="price-1">$</span><span id="price-2">15</span><span id="price-1">95</span></p>
+          <hr>
+          <p id="getting">25min</p>
+          <hr>
+          <p id="getting">
+            Ecterior Hand Wash<br>
+            Towel Hand Dry<br>
+            Wheel Shine
+          </p>
+          <button id="book" style="margin-top: 250px;">Book Now</button>
+        </td>
+        <td class="offer">
+          <p id="offer-name">DELUXE WASH</p>
+          <p><span id="price-1">$</span><span id="price-2">27</span><span id="price-1">95</span></p>
+          <hr>
+          <p id="getting">45min</p>
+          <hr>
+          <p id="getting">
+            Ecterior Hand Wash<br>
+            Towel Hand Dry<br>
+            Wheel Shine<br>
+            Tire Dressing<br>
+            Windows In & Out<br>
+            Sealer Hand Wax
+          </p>
+          <button id="book" style="margin-top: 180px;">Book Now</button>
+        </td>
+        <td class="offer">
+          <p id="offer-name">ULTIMATE SHINE</p>
+          <p><span id="price-1">$</span><span id="price-2">40</span><span id="price-1">45</span></p>
+          <hr>
+          <p id="getting">60min</p>
+          <hr>
+          <p id="getting">
+            Ecterior Hand Wash<br>
+            Towel Hand Dry<br>
+            Wheel Shine<br>
+            Tire Dressing<br>
+            Windows In & Out<br>
+            Interior Vacuum<br>
+            Door Shuts & Plastics<br>
+            Dashboard Clean<br>
+            Air Freshener<br>
+            Sealer Hand Wax
+          </p>
+          <button id="book" style="margin-top: 80px;">Book Now</button>
+        </td>
+        <td class="offer">
+          <p id="offer-name">PLATINUM WORKS</p>
+          <p><span id="price-1">$</span><span id="price-2">65</span><span id="price-1">95</span></p>
+          <hr>
+          <p id="getting">100min</p>
+          <hr>
+          <p id="getting">
+            Ecterior Hand Wash<br>
+            Towel Hand Dry<br>
+            Wheel Shine<br>
+            Tire Dressing<br>
+            Windows In & Out<br>
+            Interior Vacuum<br>
+            Door Shuts & Plastics<br>
+            Dashboard Clean<br>
+            Air Freshener<br>
+            Sealer Hand Wax<br>
+            Triple Coat Hand Wax<br>
+            Exterior Vinyl Protectant<br>
+            Rain-X Complete
+          </p>
+          <button id="book">Book Now</button>
+        </td>
+        <td ></td>
+      </tr>
+    </table>
+    <table class="table-5">
+      <tr >
+        <td colspan="2" rowspan="2" class="left-pic-box"></td>
+        <td class="right"  style="padding-top: 100px;">
+          <h3 class="right-h3">CONVENIENCE</h3>
+          <p class="right-p">We are dedicated to providing quality service, <br>customer satisfaction at a great value in multiple <br>locations offering convenient hours.</p>
+        </td>
+        <td class="right"  style="padding-left: 40px; padding-top: 100px;">
+          <h3 class="right-h3">ORGANIC PRODUCTS</h3>
+          <p class="right-p">Our products are eco-friendly and interior <br>products are all organic. We use less than a gallon <br>of water with absolutely zero-waste.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="right" style="padding-bottom: 60px;">
+          <h3 class="right-h3">EXPERIENCED TEAM</h3>
+          <p class="right-p">Our crew members are all trained and skilled and <br>fully equiped with equipment and supplies needed <br>that we can deliver the best results.</p>
+        </td>
+        <td class="right"  style="padding-left: 40px; padding-bottom: 60px;">
+          <h3 class="right-h3">GREAT VALUE</h3>
+          <p class="right-p">We offer multiple services at a great value to meet <br>your needs. We offer a premium service while <br>saving your time and money.</p>
+          </td>
+      </tr>
+    </table>
+    <table class="table-6">
+      <tr>
+        <td style="width: 23%;"></td>
+        <td class="last-td">
+          <h4 class="right-h3">CALL US AT</h4>
+          <p class="right-p">(+1) 512 521 1052</p>
+        </td>
+        <td class="last-td" style="padding-left: 200px;">
+          <h4 class="right-h3">OUR ADDRESS</h4>
+          <p class="right-p">909 Reinli Street, Austin TX 78751</p>
+        </td>
+        <td class="last-td">
+          <h4 class="right-h3">WORKING HOURS</h4>
+          <p class="right-p">Monday - Sunday 8am - 6pm</p>
+        </td>
+        <td style="width: 18%;"></td>
+      </tr>
+    </table>
+    <table class="table-7">
+      <tr>
+        <th style="width: 18%;"></th>
+        <th>ABOUT</th>
+        <th class="th1">SERVICES</th>
+        <th class="th1">COMPANY</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="footer">
+          <p>LuxeGlow Car Care is an eco-friendly hand car wash<br>and detailing service based in Austin, US.</p>
+          <img style="width: 160px;" src="/Pic/Logo-main.webp">
+        </td>
+        <td class="footer">
+          <ul>
+            <li class="footer-li"><a class="a-ft" href="#">About Us</a></li>
+            <li class="footer-li"><a class="a-ft" href="#">Blog</a></li>
+            <li class="footer-li"><a class="a-ft" href="#">Gallery</a></li>
+            <li class="footer-li"><a class="a-ft" href="#">Our Services</a></li>
+            <li class="footer-li"><a class="a-ft" href="#">Book an Appointment</a></li>
+            <li class="footer-li"><a class="a-ft" href="#">Contact</a></li>
+          </ul>
+        </td>
+        <td class="footer"> <ul>
+          <li class="footer-li"><a class="a-ft" href="#">Contact</a></li>
+          <li class="footer-li"><a class="a-ft" href="#">About Us</a></li>
+          <li class="footer-li"><a class="a-ft" href="#">Learn More</a></li>
+          <li class="footer-li"><a class="a-ft" href="#">Mail Us</a></li>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="3"><hr style="border: .5px solid rgba(128, 128, 128, 0.421);"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="3" style="text-align: center; font-size: 14px; color: gray; padding-top: 30px;">© 2024 LuxeGlow Car Care - Mobile Auto Detailing Services All Right Reserved</td>
+        <td></td>
+      </tr>
+    </table>
+</body>
+</html>
